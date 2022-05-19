@@ -1,0 +1,18 @@
+{
+  "name": "iline",
+  "version": "1.0.0",
+  "description": "realtime chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "nitin",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "redis": "^4.1.0",
+    "socket.io": "^4.5.0"
+  }
+}
